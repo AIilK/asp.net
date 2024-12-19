@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دو لینک با دو باکس</title>
+    <style>
+ /*       .container {
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .box {
+            width: 140px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 8px 16px;*/
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+  button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  opacity: 0.7;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+    </style>
+</head>
+<body>
+        @*<div class="card">
+            <img src="~/download.jpg" alt="Avatar" style="width:400%; margin-left: auto;
+            margin-right: 0">
+           <div class="container">
+               <a href="https://localhost:7134/Elavator/Index">اسانسور باربر و ترکیبی</a>
+              </div>
+        </div>
+        <div class="card">
+            <img src="~/download.jpg" alt="Avatar" style="width:400%; margin-left: 0;  margin-right: auto">
+            <div class="container">
+            <a href="https://localhost:7134/Elavator/nafarbar">اسانسور نفربر</a>
+            </div>
+        </div>
+    </div>*@
+
+  <div class="card" style="margin-left: 0;
+            margin-right: auto">
+  <img src="~/download.jpg" alt="John" style="width:100%">
+  <h1>اسانسور باربری و ترکیبی</h1>
+  <div style="margin: 24px 0;">
+    </div>
+<a href="https://localhost:7134/Elavator/Index" class="bg-blue-500 text-black font-bold py-2 px-4 rounded">  
+    <button>click</button>
+</a></div>
+
+<div class="card" style="margin-left: auto;
+            margin-right: 0 ; justify-center">
+  <img src="~/download.jpg" alt="John" style="width:100%">
+  <h1>اسانسور نفربر</h1>
+  <div style="margin: 24px 0;">
+    </div>
+<a href="https://localhost:7134/Elavator/nafarbar" class="bg-blue-500 text-black font-bold py-2 px-4 rounded">  
+    <button>click</button>
+</a></div>
+</body>
+</html>

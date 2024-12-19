@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|d:\\job\\calculator-20241017t210547z-001\\calculator\\controllers\\elavatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|solutionrelative:controllers\\elavatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|d:\\job\\calculator-20241017t210547z-001\\calculator\\views\\elavator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|solutionrelative:views\\elavator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|d:\\job\\calculator-20241017t210547z-001\\calculator\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|d:\\job\\calculator-20241017t210547z-001\\calculator\\views\\elavator\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|solutionrelative:views\\elavator\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|d:\\job\\calculator-20241017t210547z-001\\calculator\\views\\elavator\\nafarbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0078ABE-6488-4C18-B7D2-EF78846A95E9}|Calculator.csproj|solutionrelative:views\\elavator\\nafarbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwDQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:06:32.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Views\\Elavator\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Elavator\\Index.cshtml",
+              "ToolTip": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Views\\Elavator\\Index.cshtml",
+              "RelativeToolTip": "Views\\Elavator\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAANgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T21:06:32.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ElavatorController.cs",
+              "DocumentMoniker": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Controllers\\ElavatorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ElavatorController.cs",
+              "ToolTip": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Controllers\\ElavatorController.cs",
+              "RelativeToolTip": "Controllers\\ElavatorController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:06:32.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "home.cshtml",
+              "DocumentMoniker": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Views\\Elavator\\home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Elavator\\home.cshtml",
+              "ToolTip": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Views\\Elavator\\home.cshtml",
+              "RelativeToolTip": "Views\\Elavator\\home.cshtml",
+              "ViewState": "AQIAAFIAAAAAAAAAAABBwE8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T21:06:32.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "nafarbar.cshtml",
+              "DocumentMoniker": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Views\\Elavator\\nafarbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Elavator\\nafarbar.cshtml",
+              "ToolTip": "D:\\Job\\Calculator-20241017T210547Z-001\\Calculator\\Views\\Elavator\\nafarbar.cshtml",
+              "RelativeToolTip": "Views\\Elavator\\nafarbar.cshtml",
+              "ViewState": "AQIAAMcAAAAAAAAAAABBwOYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T21:06:32.367Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

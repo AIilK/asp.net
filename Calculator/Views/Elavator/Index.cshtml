@@ -1,0 +1,230 @@
+﻿@model Calculator.Models.User
+
+<head>
+    <meta charset="utf-8" />
+    <title>ماشین حساب</title>
+    <style>
+   input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    width: 14%;
+/*    padding: 8px 10px;
+*/    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: hsla(50, 33%, 25%, .75);
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+form {
+    border: 3px solid #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+input[type=text] {
+  transition: width 0.5s ease-in-out;
+}
+
+input[type=number]:focus {
+  width: 17%;
+}
+select {
+  width: 14%;
+  /*padding: 12px 20px;*/
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: cyan;
+  border: none;
+  color: gray;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+    </style>
+  </head>
+  <body>
+<form asp-action="Index" method="post" dir="rtl" >
+    <div>
+        <label>تعهد هزینه پزشکی هر نفر در هر حادثه</label> 
+        <input type="number" asp-for="taohedp" />
+        <label>نرخ</label>
+        <input type="number" asp-for="nerkh" />
+        <label>ظرفیت</label>
+        <input type="number" asp-for="zarfiat" />
+    </div>
+
+
+<div>
+        <label>ماه عادی</label> 
+        <input type="number" asp-for="mahadi" />
+        <label>ماه حرام</label>
+        <input type="number" asp-for="mahharam" />
+
+        <label>نرخ</label>
+        <input type="number" asp-for="nerkh" />
+         <label>تناژ</label>
+        <input type="number" asp-for="tonaz" />
+    </div>
+  
+    <div>
+        <label>مالی در هر حادثه</label>
+        <input type="number" asp-for="maliha" />
+
+        <label>نرخ</label>
+        <input type="number" asp-for="nerkh" />
+         <label>ضریب در طول مدت</label>
+            <select id =NumberDropdownn asp-for="zaribe" >
+            <script>
+   dropdown = document.getElementById('NumberDropdownn');
+  for (let i = 1; i <= 50; i++) {
+     option = document.createElement('option');
+      //option.value = i;
+
+    if (i == 2) {
+        option.value = 0.15;
+    } else if (i == 3) {
+        option.value = 0.25;
+    } else if (i >= 4) {
+        option.value = 0.25 + (i - 3) * 0.05;
+    } else {
+        option.value = 1; 
+    }
+    
+    option.textContent = i;
+    dropdown.appendChild(option);
+  }
+</script>
+</select>
+        <div>
+            <label>بدون درب</label>
+           <select asp-for="bedondar" >
+               <option value="1">0%</option>
+               <option value="5">5%</option>
+               </select>
+        </div>
+         <div>
+            <label>تجاری ارداری</label>
+           <select asp-for="tejari" >
+               <option value="1">0%</option>
+               <option value="20">20%</option>
+               </select>
+        </div>
+         <div>
+            <label>بیش از 15 طبقه</label>
+           <select asp-for="bishaz" >
+               <option value="1">0%</option>
+               <option value="15">15%</option>
+               </select>
+        </div>
+         <div>
+            <label>بدون رای دادگاه</label>
+           <select asp-for="bedonray" >
+               <option value="1">0%</option>
+               <option value="15">15%</option>
+               </select>
+        </div>
+        <div>
+            <label>تعداد دیات یک دیه</label>
+           <select asp-for="tedad" >
+               <option value="1">0%</option>
+               <option value="25">25%</option>
+               <option value="35">35%</option>
+               <option value="45">45%</option>
+               </select>
+        </div>
+         <div>
+            <label>افزایش ریالی یک سال</label>
+           <select asp-for="afzayesh1" >
+               <option value="1">0%</option>
+               <option value="25">25%</option>
+               </select>
+        </div>
+         <div>
+            <label>افزایش ریالی دو سال</label>
+           <select asp-for="afzayesh2" >
+               <option value="1">0%</option>
+               <option value="35">35%</option>
+               </select>
+        </div>
+         <div>
+            <label>افزایش ریالی سه سال</label>
+           <select asp-for="afzayesh3" >
+               <option value="1">0%</option>
+               <option value="45">45%</option>
+               </select>
+         </div>
+          <div>
+            <label>بیمه گذار حقیقی</label>
+           <select asp-for="bimegozar" >
+               <option value="1">0%</option>
+               <option value="5">5%</option>
+               </select>
+         </div>
+        <div>
+            <label>هزینه پزشکی یا اعمال تعرفه بخش خصوصی</label>
+           <select asp-for="hazine" >
+               <option value="1">0%</option>
+               <option value="15">15%</option>
+               </select>
+        </div>
+        <div>
+            <label>تخفیفات واحد وسایر</label>
+           <select asp-for="tkhfifva" >
+               <option value="1">0%</option>
+               <option value="10">11-50</option>
+               <option value="20">51-100</option>
+               <option value="25">101-200</option>
+               <option value="35">201-300</option>
+               <option value="40">300 به بالا</option>
+               </select>
+               </div>
+                <div>
+               <label>تسویه نقدی</label>
+           <select asp-for="tasvie" >
+               <option value="1">0%</option>
+               <option value="10">10%</option>
+               </select>
+        </div>
+          <div>
+               <label>عدم خسارت</label>
+           <select asp-for="tasvie" >
+               <option value="10">1</option>
+               <option value="15">2</option>
+               <option value="20">3</option>
+               <option value="25">4</option>
+               <option value="25">5</option>
+               <option value="25">6</option>
+               <option value="25">7</option>
+               <option value="25">8</option>
+               </select>
+        </div>
+        <div>
+            <label>تشدید خطر</label>
+           <input type="number" asp-for="tashdid" />
+               
+        </div>
+        <div>
+            <label>درصد تخفیف مدیریتی</label>
+            <input type="number" asp-for="darsad" />
+            </div>
+            <button type="submit">حساب کردن</button></div>
+@if (Model != null)
+{
+    <h3>حق بیمه کل:@Model.haghebimeh </h3>
+}
+        </form>
+ </body>

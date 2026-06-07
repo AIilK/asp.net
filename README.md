@@ -1,46 +1,49 @@
-# ASP.NET Calculator & Elevator System
+
+# ASP.NET Core Calculator & Elevator System
 
 <div align="center">
 
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-**A modern ASP.NET Core MVC web application featuring Calculator and Elevator simulation.**
+**A modern ASP.NET Core MVC application with Calculator and Elevator Simulation**
 
 </div>
 
 ## 📖 About
 
-This project is a **full-stack ASP.NET Core** application that includes:
+This project is a **full-featured ASP.NET Core MVC** web application that demonstrates practical implementation of:
 
-- A functional **Calculator** with basic and scientific operations
-- An **Elevator Simulation** system (request handling, floor management, etc.)
-- Clean MVC architecture (Model-View-Controller)
-- Responsive frontend with HTML, CSS, and JavaScript
+- A fully functional **Calculator** with basic and advanced operations
+- An **Elevator Simulation System** (floor management, call requests, real-time status)
+- Clean **Model-View-Controller (MVC)** architecture
+- Responsive and interactive frontend
+
+Perfect for learning ASP.NET Core, MVC pattern, and building interactive web applications.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- **Calculator Operations**: Addition, Subtraction, Multiplication, Division, and more
-- **Elevator System**: 
-  - Multiple floor support
-  - Call requests
-  - Real-time status display
-- Responsive and user-friendly UI
-- Built with **ASP.NET Core 6.0+**
-- Separation of concerns using MVC pattern
+- **Calculator**: Addition, Subtraction, Multiplication, Division, and scientific operations
+- **Elevator System**:
+  - Multiple floors support
+  - Call button simulation
+  - Real-time elevator status and movement
+  - Queue management for requests
+- Responsive UI with HTML5 + CSS3 + JavaScript
+- Clean separation of concerns
+- Built with modern **ASP.NET Core**
 
 ---
 
 ## 🛠️ Technologies
 
 - **Backend**: ASP.NET Core, C#
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Architecture**: MVC (Model-View-Controller)
-- **IDE**: Visual Studio / VS Code
+- **Frontend**: HTML5, CSS3, JavaScript, Razor Views
+- **Architecture**: MVC Pattern
+- **IDE**: Visual Studio 2022 / VS Code
 
 ---
 
@@ -48,14 +51,15 @@ This project is a **full-stack ASP.NET Core** application that includes:
 
 ```
 asp.net/
-├── Calculator/                  # Main ASP.NET Project
+├── Calculator/                  # Main Project
 │   ├── Controllers/             # MVC Controllers
-│   ├── Models/                  # Data models
-│   ├── Views/                   # Razor views
-│   ├── wwwroot/                 # Static files (css, js, images)
+│   ├── Models/                  # Data Models
+│   ├── Views/                   # Razor Views
+│   ├── wwwroot/                 # Static files (CSS, JS, images)
 │   ├── Program.cs
 │   └── Calculator.csproj
-├── .gitattributes
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -65,58 +69,50 @@ asp.net/
 
 ### Prerequisites
 - [.NET 6.0 SDK](https://dotnet.microsoft.com/download) or higher
-- Visual Studio 2022 (recommended) or VS Code
 
 ### Steps
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/AIilK/asp.net.git
    cd asp.net
    ```
 
-2. **Navigate to the project**
+2. Navigate to the project folder
    ```bash
    cd Calculator
    ```
 
-3. **Restore and build**
+3. Restore packages and run
    ```bash
    dotnet restore
-   dotnet build
-   ```
-
-4. **Run the application**
-   ```bash
    dotnet run
    ```
 
-5. Open your browser and go to `https://localhost:xxxx` (port shown in terminal)
+4. Open your browser and navigate to the URL shown in the terminal (usually `https://localhost:7xxx` or `http://localhost:5xxx`)
 
 ---
 
 ## 📸 Screenshots
 
-*(Add screenshots of Calculator and Elevator pages here later)*
+*(Add screenshots of the Calculator and Elevator interface here)*
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!  
-1. Fork the project  
-2. Create a feature branch  
-3. Commit your changes  
-4. Push and open a Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**⭐ Star this repo if you found it helpful!**
+**⭐ If this project helped you, please give it a star!**
 
-For questions or suggestions, please open an Issue.
-```
-که می‌خوای. 🔥
+For any questions or suggestions, feel free to open an Issue. 
